@@ -11,6 +11,16 @@ function ejecutar(numEjercicio){
         listarNumerosReversa();
     }else if(numEjercicio ==3){
         listarPares();
+    }else if(numEjercicio ==4){
+        listarImpares();
+    }
+    
+}
+
+
+function listarImpares (){
+    for(let i =1; i <= 7; i+=2){
+        console.log(i)
     }
 }
 
