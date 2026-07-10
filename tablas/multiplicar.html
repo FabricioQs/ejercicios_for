@@ -8,9 +8,13 @@
   <script src="multiplicar.js" defer></script>
 </head>
 <body>
-
-  <header class="header">
-    <button class="btn-probar" onclick="generarTablas()">PROBAR</button>
+    
+<header class="header">
+    <div class="inputs-contenedor">
+      <!-- Añadimos esta caja de texto con el id que lee el JavaScript -->
+      <input type="number" id="txtTabla" placeholder="Número">
+      <button class="btn-probar" onclick="generarTablas()">PROBAR</button>
+    </div>
   </header>
 
   <main class="contenedor-principal" id="divTabla">
